@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <body>
 <h1>JavaScript Array Sort</h1>
 
@@ -14,17 +14,6 @@
 <p>O maior número é <span id="demo1"></span>.</p>
 <br>
 <p>O maior número é <span id="demo3"></span></p>
-<br>
-
-<h2>The sort() Method</h2>
-<br>
-<h3></h3>
-
-<p>The sort() method sorts an array alphabetically:</p>
-
-<p id="as1"></p>
-<p id="as2"></p>
-
 
 <script>
 const points = [40, 100, 1, 5, 25, 10];
@@ -50,12 +39,6 @@ document.getElementById("demo3").innerHTML = myArrayMax(points3);
 function myArrayMax(arr) {
     return Math.max.apply(null, arr);
 }
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("as1").innerHTML = fruits;
-
-fruits.sort();
-document.getElementById("as2").innerHTML = fruits;
-
 </script>
 
 </body>

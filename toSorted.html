@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Frutas</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+
+    <h2>O metodo toSorted <h2>
+<p>O Array toSorted é usado para por essas lista de alimentos em ordem alfabetica e retorna sua forma original.</p>
+
+<p id="fruteira"></p>
+
+<script>
+
+    //Faça uma lista de frutas permanentes.
+    const frutas = [' Pera', ' Maçã', ' Laranja',' Ameixa', ' Cupuaçu', ' Biribá'];
+
+    //toSorted está ordenando a lista sem modificar a lista original e a retorna.
+    const frutas2 = frutas.toSorted();
+
+
+    document.getElementById("fruteira").innerHTML = "Lista Modificada em ordem alfabetica:" + "<br>" + "<br>" + frutas + "<br>" + frutas2;
+</script>
+</body>
+</html>
+
+
